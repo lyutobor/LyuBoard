@@ -21,8 +21,7 @@
 </p>
 
 <p align="center">
-  <img src="assets/demo_EN.webp" width="320" alt="LyuBoard frosted glass over apps"><br>
-  <a href="https://github.com/lyutobor/LyuBoard/releases/latest/download/LyuBoard-video-EN.mp4">▶ Watch the full video in HD (MP4, 27 s)</a>
+  <img src="assets/demo_EN.webp" width="320" alt="LyuBoard frosted glass over apps">
 </p>
 
 ## Why this page exists
