@@ -21,7 +21,8 @@
 </p>
 
 <p align="center">
-  <img src="assets/demo_RU.gif" width="300" alt="Матовое стекло LyuBoard поверх приложений">
+  <img src="assets/demo_RU.webp" width="320" alt="Матовое стекло LyuBoard поверх приложений"><br>
+  <a href="https://github.com/lyutobor/LyuBoard/releases/latest/download/LyuBoard-video-RU.mp4">▶ Смотреть ролик целиком в HD (MP4, 27 с)</a>
 </p>
 
 ## Зачем эта страница
