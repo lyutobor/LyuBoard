@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discussions — opinions, questions, ideas to talk about
+    url: https://github.com/lyutobor/LyuBoard/discussions
+    about: Not a bug? Tell us what you think here. / Не баг? Расскажите, как оно, здесь.
+  - name: ✈️ Telegram — t.me/lyuBoard
+    url: https://t.me/lyuBoard
+    about: News and quick chat. / Новости и быстрый разговор.

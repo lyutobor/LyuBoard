@@ -1,0 +1,55 @@
+name: 🐞 Bug / Ошибка
+description: Something is broken, crashes, lags or looks wrong. / Что-то сломалось, вылетает, тормозит или криво выглядит.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for testing! Please don't paste personal text you typed. / Спасибо за тест! Не вставляйте личный набранный текст.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / Что случилось?
+      description: What did you do, what did you expect and what happened instead. / Что делали, что ждали и что вышло.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to repeat / Как повторить
+      placeholder: |
+        1. Open Telegram / Открыть Telegram
+        2. Tap ✨ / Нажать ✨
+        3. ...
+  - type: dropdown
+    id: build
+    attributes:
+      label: Build / Сборка
+      options:
+        - Lite
+        - Full
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: LyuBoard version / Версия LyuBoard
+      description: About → version. / О клавиатуре → версия.
+      placeholder: 1.7.327.4
+  - type: input
+    id: phone
+    attributes:
+      label: Phone and Android / Телефон и Android
+      placeholder: Samsung Galaxy S24, Android 15 (One UI 7)
+    validations:
+      required: true
+  - type: input
+    id: app
+    attributes:
+      label: In which app? / В каком приложении?
+      placeholder: Telegram, Chrome, WhatsApp...
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshot, video or report / Скриншот, видео или отчёт
+      description: Drag files here. «About → Send report» makes a log file without your text. / Перетащите файлы сюда. «О клавиатуре → Отправить отчёт» соберёт журнал без вашего текста.

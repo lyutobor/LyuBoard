@@ -1,0 +1,28 @@
+LyuBoard — Beta Test License
+
+Copyright (c) 2026 LyuBoard. All rights reserved.
+
+LyuBoard is proprietary, closed-source software. This repository contains only
+documentation and pre-release binaries (APK files) published for public testing.
+
+You may:
+  - download the APK files from this repository's Releases;
+  - install and use them on your own devices, free of charge, to test LyuBoard;
+  - share links to this repository.
+
+You may not:
+  - copy, modify, translate, decompile, disassemble or reverse engineer the
+    APK files or any part of them, except where the law expressly allows it
+    regardless of this restriction;
+  - redistribute, re-upload, sell or rent the APK files or derived works,
+    or publish them in other stores or websites;
+  - use the LyuBoard name, logo, artwork, sounds or screenshots for your own
+    products.
+
+The beta builds are provided "AS IS", without warranty of any kind, express or
+implied. Each beta build stops working 45 days after it was built. In no event
+shall the authors be liable for any claim, damages or other liability arising
+from the use of the software.
+
+Feedback you send (issues, discussions, messages) may be used to improve
+LyuBoard without any obligation to you.

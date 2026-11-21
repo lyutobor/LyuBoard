@@ -1,0 +1,23 @@
+name: 💡 Idea / Идея
+description: A feature you miss or something to make better. / Чего не хватает или что сделать лучше.
+labels: ["idea"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like? / Что хочется?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why does it matter to you? / Зачем это вам?
+      description: Which keyboard does it better today, if any? / Какая клавиатура делает это лучше сейчас, если есть?
+  - type: dropdown
+    id: build
+    attributes:
+      label: Build / Сборка
+      options:
+        - Lite
+        - Full
+        - Not installed yet / Ещё не ставил
