@@ -83,7 +83,8 @@ in the Play Store (see below). Lite doesn't contain that service, so Play Protec
    If Play Protect warns about Lite, tap **More details → Install anyway**.
 3. Open **LyuBoard** and follow the welcome screen: it turns the keyboard on and picks it.
 
-**To install Full:** open the **Play Store → your profile → Play Protect → ⚙ → turn off
+**To install Full.** Play Protect often doesn't say it's involved: you just see "App not installed" or "package
+appears to be invalid". The file is fine. Open the **Play Store → your profile → Play Protect → ⚙ → turn off
 "Scan apps with Play Protect"**, install the APK, then turn scanning back on. On Android 13+ the Accessibility switch may
 be greyed out at first: open **Settings → Apps → LyuBoard → ⋮ → Allow restricted settings**, then turn it on.
 Only do this if you're comfortable with it; Lite needs none of this.
