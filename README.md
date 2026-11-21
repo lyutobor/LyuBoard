@@ -5,8 +5,8 @@
 <h1 align="center">LyuBoard</h1>
 
 <p align="center">
-  <b>An Android keyboard made of glass, keycaps and good autocorrect.</b><br>
-  Open beta before Google Play: try it, break it, tell us what you think.
+  <b>An Android keyboard with a frosted glass look, mechanical keycaps and smart autocorrect.</b><br>
+  Open beta before Google Play: try it and tell us what you think.
 </p>
 
 <p align="center">
@@ -28,7 +28,7 @@
 ## Why this page exists
 
 LyuBoard is heading to Google Play. Before that, I want real people with real phones to use it for a while and say
-honestly what is great, what is annoying and what is broken. That is this beta.
+what is great, what is annoying and what is broken. That is this beta.
 
 **What I'd love to hear:** bugs and crashes, lag on your phone, autocorrect that fixes the wrong thing, words it doesn't
 know, things that look off in your apps, and features you miss from your current keyboard.
@@ -37,7 +37,7 @@ Leave it in [Issues](https://github.com/lyutobor/LyuBoard/issues/new/choose), [D
 
 ## What's inside
 
-- **Typing that keeps up.** Swipe typing, autocorrect tuned on real human typos, next-word suggestions that work offline,
+- **Typing that keeps up.** Swipe typing, autocorrect that understands everyday typos, next-word suggestions that work offline,
   and keys that quietly adapt to where *your* finger actually lands.
 - **41 keyboard languages**, from English, Russian and Ukrainian to Arabic, Hindi and Korean. The app itself speaks 17.
 - **Looks you can feel.** Frosted glass and sea glass over any app, mechanical keycaps with backlight, real materials
@@ -58,7 +58,7 @@ one Android Accessibility service.
 | Keyboard turns light or dark to match the app under it | — | ✅ |
 | Blurred colours of the screen under the glass, where an app draws nothing | — | ✅ |
 | Denser glass over busy backgrounds, so letters stay readable | — | ✅ |
-| Installs like any APK | ✅ | ⚠️ Play Protect may block it |
+| Installing | ✅ Play Protect warns, but offers "Install anyway" | ⚠️ You need to turn Play Protect off for a moment |
 | **Pick it if** | you just want to try the keyboard | you want the glass to look its best (Android 14+) |
 
 **Not sure? Take Lite.** You can install Full over it later: settings and learned words stay.
@@ -66,9 +66,9 @@ one Android Accessibility service.
 ### Why are there two?
 
 To see what is under the keyboard, LyuBoard Full uses Android's **Accessibility** permission. Google Play Protect treats
-*any* app from outside Google Play that asks for Accessibility as dangerous, because malware abuses it. On many phones it
-simply refuses to install such an APK, and the "Install anyway" button doesn't help. Lite doesn't contain that service at
-all, so Android lets it in. Once LyuBoard is in Google Play, this split goes away.
+*any* app from outside Google Play that asks for Accessibility as dangerous, because malware abuses it. It simply refuses to
+install such an APK: there is no "Install anyway" button at all, and Full installs only with Play Protect turned off
+in the Play Store (see below). Lite doesn't contain that service, so Play Protect only warns and offers "Install anyway". Once LyuBoard is in Google Play, this split goes away.
 
 ### What exactly the Accessibility service does
 
@@ -76,27 +76,22 @@ all, so Android lets it in. Once LyuBoard is in Google Play, this split goes awa
   <img src="assets/accessibility-en.svg" width="760" alt="What the Accessibility service does and never does">
 </p>
 
-In plain words: when the keyboard opens, LyuBoard asks Android for one picture of the app window under it (without the
-keyboard), checks on the phone how light it is and keeps a tiny blurred copy of its colours. The picture is thrown away
-immediately. Technically, an Accessibility service *could* read your screen, which is why Android warns so loudly.
-LyuBoard doesn't: it receives no accessibility events, reads no text and presses nothing. The service is **off until you
-turn it on** yourself, after an explanation inside the app, and you can turn it off at any time.
-
 ## How to install
 
 1. Download `LyuBoard-Lite-….apk` (or Full) from the [latest release](https://github.com/lyutobor/LyuBoard/releases/latest) on your phone.
 2. Open it. Allow your browser or file manager to install unknown apps if Android asks.
+   If Play Protect warns about Lite, tap **More details → Install anyway**.
 3. Open **LyuBoard** and follow the welcome screen: it turns the keyboard on and picks it.
 
-**Installing Full** if Play Protect blocks it: open the **Play Store → your profile → Play Protect → ⚙ → turn off
+**To install Full:** open the **Play Store → your profile → Play Protect → ⚙ → turn off
 "Scan apps with Play Protect"**, install the APK, then turn scanning back on. On Android 13+ the Accessibility switch may
 be greyed out at first: open **Settings → Apps → LyuBoard → ⋮ → Allow restricted settings**, then turn it on.
 Only do this if you're comfortable with it; Lite needs none of this.
 
 ## Good to know
 
-- **This is a beta.** Each build stops working **45 days** after it was built and asks you to update. That keeps old,
-  buggy copies from living forever. Click **Watch → Custom → Releases** at the top of this page to hear about new builds.
+- **This is a beta.** Each build stops working **45 days** after it was built and asks you to update. That way every tester
+  has a fresh build with the fixes, not an old one with bugs that are already fixed. Click **Watch → Custom → Releases** at the top of this page to hear about new builds.
 - **Android 12 or newer.** Tested most on Samsung Galaxy (One UI) and OnePlus.
 - **Big download (~375 MB):** dictionaries for all 41 languages are inside, so typing works fully offline.
 - **Updates install over each other.** All beta builds are signed with the same key. The Google Play version will be
@@ -108,7 +103,7 @@ Only do this if you're comfortable with it; Lite needs none of this.
 - **Crash reports** (Firebase Crashlytics) are on by default and never include your text. Turn them off in
   *About → Send crash reports*.
 - Text goes to an AI service **only when you press ✨**, and only to the service you picked. The free LyuBoard AI
-  receives the role name and up to 600 characters, and logs no text.
+  receives the role name and up to 600 characters, and stores no text.
 - GIF search talks to KLIPY directly from your phone.
 - "Share anonymously" (word statistics to improve dictionaries) is optional and sends no sentences.
 
