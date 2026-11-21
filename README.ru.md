@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/lyutobor/LyuBoard/releases/latest"><img src="https://img.shields.io/github/v/release/lyutobor/LyuBoard?include_prereleases&label=бета&color=F28C13" alt="Последняя бета"></a>
-  <a href="https://github.com/lyutobor/LyuBoard/releases"><img src="https://img.shields.io/github/downloads/lyutobor/LyuBoard/total?label=скачиваний&color=F28C13" alt="Скачиваний"></a>
+  <a href="https://github.com/lyutobor/LyuBoard/releases/latest"><img src="https://img.shields.io/github/v/release/lyutobor/LyuBoard?include_prereleases&label=%D0%B1%D0%B5%D1%82%D0%B0&color=F28C13" alt="Последняя бета"></a>
+  <a href="https://github.com/lyutobor/LyuBoard/releases"><img src="https://img.shields.io/github/downloads/lyutobor/LyuBoard/total?label=%D1%81%D0%BA%D0%B0%D1%87%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9&color=F28C13" alt="Скачиваний"></a>
   <img src="https://img.shields.io/badge/Android-12%2B-3DDC84?logo=android&logoColor=white" alt="Android 12+">
   <a href="https://t.me/lyuBoard"><img src="https://img.shields.io/badge/Telegram-lyuBoard-26A5E4?logo=telegram&logoColor=white" alt="Telegram"></a>
 </p>
